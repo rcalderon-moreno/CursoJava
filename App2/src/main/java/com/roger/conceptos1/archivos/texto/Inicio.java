@@ -1,8 +1,8 @@
 
 package com.roger.conceptos1.archivos.texto;
 
-import com.roger.conceptos2.clases.personalv1.Empleado;
-import com.roger.conceptos2.clases.personalv1.Persona;
+import com.roger.conceptos2.clases.personalv2.Empleado;
+import com.roger.conceptos2.clases.personalv2.Persona;
 import java.text.ParseException;
 import java.util.Date;
 

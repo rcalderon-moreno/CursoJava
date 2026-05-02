@@ -4,7 +4,7 @@ package com.roger.conceptos2.clases.personalv2;
 
 import com.roger.conceptos2.clases.interfaces.ExportarInformacion;
 
-public abstract class Persona  implements ExportarInformacion {
+public abstract class Persona  implements ExportarInformacion, java.io.Serializable {
     private double identificacion;
     private String nombres;
     private String apellidos;

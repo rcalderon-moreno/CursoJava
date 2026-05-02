@@ -18,10 +18,9 @@ public class Inicio {
       Ejemplo2 b2 = new Ejemplo2();   
       b2.leerArchivo();        
       
-      //Ejemplo3 b3 = new Ejemplo3();   
-      //b3.leerArchivo();
-      
-      /*Ejemplo4 b4 = new Ejemplo4();   
-      b4.leerArchivo();          */
+      Ejemplo3 b3 = new Ejemplo3();
+      b3.leerArchivo();
+      Ejemplo4 b4 = new Ejemplo4();
+      b4.leerArchivo();
     }
 }

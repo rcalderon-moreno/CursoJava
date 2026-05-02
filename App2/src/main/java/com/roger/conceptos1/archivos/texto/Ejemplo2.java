@@ -4,8 +4,8 @@ package com.roger.conceptos1.archivos.texto;
 import java.io.*;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
-import com.roger.conceptos2.clases.personalv1.Empleado;
-import com.roger.conceptos2.clases.personalv1.Persona;
+import com.roger.conceptos2.clases.personalv2.Empleado;
+import com.roger.conceptos2.clases.personalv2.Persona;
 
 
 public class Ejemplo2 {

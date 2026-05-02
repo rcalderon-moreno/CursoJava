@@ -30,6 +30,31 @@ public class Empleado extends Persona {
         System.out.println("Exportando documento EXCEL desde el empleado");
     }
 
+
+    public String getCargo() {
+        return this.cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public Date getFechaIngreso() {
+        return this.fechaIngreso;
+    }
+
+    public void setFechaIngreso(Date fechaIngreso) {
+        this.fechaIngreso = fechaIngreso;
+    }
+
+    public double getSalario() {
+        return this.salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
 }
 
 /*

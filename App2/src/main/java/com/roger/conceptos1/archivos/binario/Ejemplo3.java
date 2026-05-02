@@ -1,7 +1,7 @@
 
 package com.roger.conceptos1.archivos.binario;
 
-import com.roger.conceptos2.clases.personalv1.Empleado;
+import com.roger.conceptos2.clases.personalv2.Empleado;
 
 
 
