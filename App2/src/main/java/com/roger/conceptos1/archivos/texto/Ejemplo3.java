@@ -13,7 +13,6 @@ public class Ejemplo3 {
             System.out.println(linea);
         }
 
-
         Files.write(Paths.get("texto.txt"), "Texto nuevo".getBytes());
     }
 
