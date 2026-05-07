@@ -1,4 +1,4 @@
-package com.roger.conceptos2.objetos;
+package com.roger.conceptos3;
 
 
 import com.roger.conceptos2.clases.puntos2D.Punto;

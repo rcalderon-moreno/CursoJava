@@ -1,0 +1,23 @@
+package com.roger.conceptos3.genericos;
+
+
+import com.roger.conceptos2.clases.personalv1.Persona;
+import com.roger.conceptos3.tipos.ClaseGenericaMultiple;
+
+public class DatosGenericosV3 {
+
+    public static void main(String[] args) {
+
+        ClaseGenericaMultiple<Integer,String> q1=
+                new ClaseGenericaMultiple<>(100,"ABC");
+        ClaseGenericaMultiple <Integer,Double> q2=
+                new ClaseGenericaMultiple<>(100,0.25);
+        ClaseGenericaMultiple <String, Persona> q3=
+                new ClaseGenericaMultiple<>("UNILLANOS",new Persona());
+
+        System.out.println(q1.toString());
+        System.out.println(q2.toString());
+        System.out.println(q3.toString());
+    }
+}
+
